@@ -6,7 +6,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 710px;
+  height: 100vh;
 }
 
 table {
@@ -18,7 +18,7 @@ table {
   margin-right: auto;
   margin-top: -69px;
   height: 71px;
-  width: 530px;
+  width: 330px;
  border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 10px 30px #000000;
   background-image: linear-gradient(#4d6dff, white, #4d6dff);
@@ -35,12 +35,12 @@ table {
   line-height: 28px;
   font-size: 20px;
   font-weight: bold;
-  width: 500px;
+  width: 350px;
   padding: 0px 10px;
   margin: 0 auto;
-  margin-top: -5px;
+  margin: -5px 15px;
   z-index: -100 !important;
-  height: 700px;
+  height: 550px;
   -webkit-animation: unfurl 3s 1;
   animation: unfurl 3s 1;
   background: #f3f0dc;
@@ -68,7 +68,7 @@ table {
 @keyframes unfurl {
   0% { height: 20px; }
   15% { height: 20px; }
-  80% { height: 690px; }
+  60% { height: 410px; }
 }
 
 #paper {
@@ -80,7 +80,8 @@ table {
   background: -moz-linear-gradient(#eeecd8 1%, #e4e0d9, #f6f3de 50%, #eeecd8 100%);
   background: linear-gradient(#eeecd8 1%, #e4e0d9, #f6f3de 50%, #eeecd8 100%);
   background-image: url("images/invitacion.jpg");
-  background-size: cover;
+  /*background-size: cover;*/
+  background-size: 368px;
   box-shadow: 0px 5px 5px #4e4e4e;
 }
 
@@ -91,7 +92,7 @@ table {
 #top-scroll {
   margin: 50px auto 0 auto;
   height: 50px;
-  width: 600px;
+  width: 400px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -101,7 +102,7 @@ table {
   margin: 0 auto;
   margin-top: -58px;
   height: 65px;
-  width: 575px;
+  width: 375px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -111,7 +112,7 @@ table {
 #bottom-scroll {
   margin: 0px auto;
   height: 50px;
-  width: 600px;
+  width: 400px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -121,7 +122,7 @@ table {
   margin: 0 auto;
   margin-top: -58px;
   height: 65px;
-  width: 575px;
+  width: 375px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -132,7 +133,7 @@ table {
   margin: 0 auto;
   margin-top: -69px;
   height: 71px;
-  width: 530px;
+  width: 330px;
   border-radius: 10px 10px 10px 10px;
   background-image: linear-gradient(#4d6dff, white, #4d6dff);
   box-shadow: 0px -5px 30px #000000;
