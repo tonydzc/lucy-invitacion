@@ -3,7 +3,6 @@ body {
   margin: 0px;
   padding: 0px;
   background-image: url( "images/wall.jpg" );
-  background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -18,10 +17,10 @@ table {
   margin-right: auto;
   margin-top: -69px;
   height: 71px;
-  width: 330px;
+  width: 310px;
  border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 10px 30px #000000;
-  background-image: linear-gradient(#4d6dff, white, #4d6dff);
+  background-image: linear-gradient(#69cdff, white, #69cdff);
   z-index: 100 !important;
   position: absolute;
   transform-origin: 35% 0;
@@ -35,10 +34,9 @@ table {
   line-height: 28px;
   font-size: 20px;
   font-weight: bold;
-  width: 350px;
+  width: 320px;
   padding: 0px 10px;
-  margin: 0 auto;
-  margin: -5px 15px;
+  margin: -5px 20px;
   z-index: -100 !important;
   height: 550px;
   -webkit-animation: unfurl 3s 1;
@@ -68,7 +66,7 @@ table {
 @keyframes unfurl {
   0% { height: 20px; }
   15% { height: 20px; }
-  60% { height: 410px; }
+  60% { height: 310px; }
 }
 
 #paper {
@@ -81,7 +79,7 @@ table {
   background: linear-gradient(#eeecd8 1%, #e4e0d9, #f6f3de 50%, #eeecd8 100%);
   background-image: url("images/invitacion.jpg");
   /*background-size: cover;*/
-  background-size: 368px;
+  background-size: 335px;
   box-shadow: 0px 5px 5px #4e4e4e;
 }
 
@@ -92,7 +90,7 @@ table {
 #top-scroll {
   margin: 50px auto 0 auto;
   height: 50px;
-  width: 400px;
+  width: 360px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -102,7 +100,7 @@ table {
   margin: 0 auto;
   margin-top: -58px;
   height: 65px;
-  width: 375px;
+  width: 335px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -112,7 +110,7 @@ table {
 #bottom-scroll {
   margin: 0px auto;
   height: 50px;
-  width: 400px;
+  width: 360px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -122,7 +120,7 @@ table {
   margin: 0 auto;
   margin-top: -58px;
   height: 65px;
-  width: 375px;
+  width: 335px;
   background: #ffd700;
   background: linear-gradient(#ffd700 20%, #fff, #ffd700 80%);
   border-radius: 10px;
@@ -133,9 +131,9 @@ table {
   margin: 0 auto;
   margin-top: -69px;
   height: 71px;
-  width: 330px;
+  width: 310px;
   border-radius: 10px 10px 10px 10px;
-  background-image: linear-gradient(#4d6dff, white, #4d6dff);
+  background-image: linear-gradient(#69cdff, white, #69cdff);
   box-shadow: 0px -5px 30px #000000;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -143,4 +141,13 @@ table {
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+#stars {
+   background-image: url(images/stars.gif);
+    background-size: contain;
+    position: absolute;
+    z-index: 99999;
+    height: 100vh;
+    width: 100%;
 }
